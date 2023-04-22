@@ -13,7 +13,7 @@ public class MaxDigit {
 				maxDigit=0;
 		}
 		ArrayList<Integer> numbers = new ArrayList<>();
-		int a;
+		
 		for (Integer i = 1; i <= maxDigit; i++) {
 			for (Integer j = 0; j <= maxDigit; j++) {
 				for (Integer k = 0; k <= maxDigit; k++) {
