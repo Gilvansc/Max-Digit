@@ -1,10 +1,12 @@
 package maxDigitPackage;
 
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class MaxDigit {
+
 	public static void main(String[] args) {
-		int maxDigit = 9;
+		int maxDigit = new Scanner(System.in).nextInt();
 		fun(maxDigit);
 	}
 
